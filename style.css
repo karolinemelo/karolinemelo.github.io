@@ -1,0 +1,81 @@
+html, body {
+    margin: 0;
+}
+header {
+    background-color: rgb(93, 113, 180);
+    color: white;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo {
+    width: 80px;
+    height: 60px;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%;
+}
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 10;
+    color: white;
+}
+li {
+    float: left;
+    padding: 20 10 20 10;
+}
+li:hover {
+    background-color:rgb(44, 80, 238);
+}
+#imagem_fundo {
+background-color: black;
+background-size: cover;
+height: 50%;
+text-align: center;
+color: white;
+}
+#titulo {
+    color:white;
+    padding-top: 15%;
+    font-size: 40px;
+}
+#paragrafo {
+    color:white;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 25px;
+}
+.destaque {
+    background-color:rgb(5, 29, 107);
+    color: white;
+}
+section{
+    padding: 0 10% 0 10%;
+    float: left;
+    text-align: justify;
+    
+}
+.img {
+    width: 90%;
+}
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.coluna.tres {
+    width: 29%;
+    padding: 0 2%;
+}
+.centralizado {
+    text-align: center;
+}
+footer {
+    background-color:rgb(93, 113, 180);
+    float: left;
+    width: 100%;
+    color: black;
+}
