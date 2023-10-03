@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
 }
+
 header {
     background-color: rgb(93, 113, 180);
     color: white;
@@ -124,14 +125,27 @@ padding-top: 10%;
       margin: 10px auto;
       float: none;
     }
-    header #logo {
+    header {
+        position: relative;
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0;
+        text-align: center;
+        background-color: rgb(93, 113, 180);
+    }
+    #logo {
       position: relative;
-      width: 100%;
+      width: 10%;
       margin-left: 0px;
       text-align: center;
+
     }
+
     .menu {
       visibility: hidden;
+      position: relative;
+      float: left;
+      background-color: rgb(93, 113, 180);
     }
     figure h1.titulo {
       margin-top: 40%;
