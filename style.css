@@ -103,9 +103,10 @@ padding-top: 10%;
     padding: 10% 0% 15% 5%;
 }
 #icones {
-    padding-top: 10;
-    padding-left: -10;
+    align-content: center;
+    padding: 10% -10% -10% -10;
 }
+
 #areasinteresse {
     border: 1px solid white;
     border-radius: 5px;
